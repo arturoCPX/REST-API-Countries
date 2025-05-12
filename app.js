@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 app.use('/api', countryRoutes);
 app.use('/api', languageRoutes);
 
-
 app.use(errorHandler);
 
 app.listen(port, () => {
